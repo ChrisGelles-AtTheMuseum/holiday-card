@@ -26,4 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
         autoplay: true,
         path: 'snowglobe-loop-01.json' // Update this path
     });
+
+    // Play card-open.mp3 when the page loads
+    var cardOpenSound = document.getElementById('cardOpenSound');
+    cardOpenSound.play();
 });
