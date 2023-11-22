@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Lottie Animation</title>
-    <style>
+     <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
         #container {
             position: relative;
-            width: 100%; /* Adjust based on Lottie size */
-            height: 900px; /* Adjust based on the total height of all Lotties */
-            background-color: #B6DCF0; /* Background color set */
+            width: 100vw; /* Width of the screen */
+            height: 100vh; /* Adjust based on Lottie size */
+            background-color: #B6DCF0; /* Background color */
         }
         .lottie-animation {
             position: absolute;
             width: 100%;
             height: 100%;
-            cursor: pointer;
+        }
+        #lottieA, #lottieC {
+            width: 100%; /* Adjust based on Lottie A and C size */
         }
     </style>
 </head>
