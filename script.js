@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // Define the audio:
+    var cardOpenSound = document.getElementById('cardOpenSound');
+
     // Lottie A (Plays Once)
     var animationA = lottie.loadAnimation({
         container: document.getElementById('lottieA'),
@@ -6,6 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
         loop: false,
         autoplay: true,
         path: 'top-snowflakes.json' // Update this path
+        // Play card-open.mp3 when the page loads
+        cardOpenSound.play();
     });
 
     // Lottie B (First Frame Only)
@@ -27,7 +32,5 @@ document.addEventListener("DOMContentLoaded", function() {
         path: 'snowglobe-loop-01.json' // Update this path
     });
 
-    // Play card-open.mp3 when the page loads
-    var cardOpenSound = document.getElementById('cardOpenSound');
-    cardOpenSound.play();
+
 });
