@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         renderer: 'svg',
         loop: false,
         autoplay: false,
-        path: 'snowglobe-text-01.json' // Update this path
+        path: 'snowglobe-text-03.json' // Update this path
     });
     animationB.goToAndStop(0, true); // Go to the first frame and stop
 
