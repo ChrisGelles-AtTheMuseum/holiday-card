@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
         autoplay: false,
         path: 'snowglobe-text-04-top.json' // Update this path
     });
-    animationB.goToAndStop(0, true); // Go to the first frame and stop
+    animationB1.goToAndStop(0, true); // Go to the first frame and stop
     
     // Lottie B (First Frame Only)
     var animationB2 = lottie.loadAnimation({
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         autoplay: false,
         path: 'snowglobe-text-04-bottom.json' // Update this path
     });
-    animationB.goToAndStop(0, true); // Go to the first frame and stop
+    animationB2.goToAndStop(0, true); // Go to the first frame and stop
 
     // Lottie C (Loops Continuously)
     var animationC = lottie.loadAnimation({
