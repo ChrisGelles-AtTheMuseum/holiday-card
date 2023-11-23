@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Lottie B (First Frame Only)
     var animationB1 = lottie.loadAnimation({
-        container: document.getElementById('lottieB'),
+        container: document.getElementById('lottieB1'),
         renderer: 'svg',
         loop: false,
         autoplay: false,
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Lottie B (First Frame Only)
     var animationB2 = lottie.loadAnimation({
-        container: document.getElementById('lottieB'),
+        container: document.getElementById('lottieB2'),
         renderer: 'svg',
         loop: false,
         autoplay: false,
