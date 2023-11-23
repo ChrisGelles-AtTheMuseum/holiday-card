@@ -9,8 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
         loop: false,
         autoplay: true,
         path: 'top-snowflakes.json' // Update this path
-        // Play card-open.mp3 when the page loads
-        // cardOpenSound.play();
     });
 
     // Lottie B (First Frame Only)
@@ -21,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         autoplay: false,
         path: 'snowglobe-text-04-top.json' // Update this path
     });
-    animationB1.goToAndStop(0, true); // Go to the first frame and stop
+    //animationB1.goToAndStop(0, true); // Go to the first frame and stop
     
     // Lottie B (First Frame Only)
     var animationB2 = lottie.loadAnimation({
@@ -31,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         autoplay: false,
         path: 'snowglobe-text-04-bottom.json' // Update this path
     });
-    animationB2.goToAndStop(0, true); // Go to the first frame and stop
+    //animationB2.goToAndStop(0, true); // Go to the first frame and stop
 
     // Lottie C (Loops Continuously)
     var animationC = lottie.loadAnimation({
