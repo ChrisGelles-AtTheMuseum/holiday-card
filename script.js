@@ -14,12 +14,22 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Lottie B (First Frame Only)
-    var animationB = lottie.loadAnimation({
+    var animationB1 = lottie.loadAnimation({
         container: document.getElementById('lottieB'),
         renderer: 'svg',
         loop: false,
         autoplay: false,
-        path: 'snowglobe-text-04.json' // Update this path
+        path: 'snowglobe-text-04-top.json' // Update this path
+    });
+    animationB.goToAndStop(0, true); // Go to the first frame and stop
+    
+    // Lottie B (First Frame Only)
+    var animationB2 = lottie.loadAnimation({
+        container: document.getElementById('lottieB'),
+        renderer: 'svg',
+        loop: false,
+        autoplay: false,
+        path: 'snowglobe-text-04-bottom.json' // Update this path
     });
     animationB.goToAndStop(0, true); // Go to the first frame and stop
 
