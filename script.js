@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         renderer: 'svg',
         loop: false,
         autoplay: false,
-        path: 'snowglobe-text-03.json' // Update this path
+        path: 'snowglobe-text-04.json' // Update this path
     });
     animationB.goToAndStop(0, true); // Go to the first frame and stop
 
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'snowglobe-loop-01.json' // Update this path
+        path: 'snowglobe-loop-04.json' // Update this path
     });
 
 
