@@ -11,33 +11,13 @@ document.addEventListener("DOMContentLoaded", function() {
         path: 'top-snowflakes.json' // Update this path
     });
 
-    // Lottie B (First Frame Only)
-    var animationB1 = lottie.loadAnimation({
-        container: document.getElementById('lottieB1'),
-        renderer: 'svg',
-        loop: false,
-        autoplay: false,
-        path: 'snowglobe-text-09-top.json' // Update this path
-    });
-    //animationB1.goToAndStop(0, true); // Go to the first frame and stop
-    
-    // Lottie B (First Frame Only)
-    var animationB2 = lottie.loadAnimation({
-        container: document.getElementById('lottieB2'),
-        renderer: 'svg',
-        loop: false,
-        autoplay: false,
-        path: 'snowglobe-text-05-bottom.json' // Update this path
-    });
-    //animationB2.goToAndStop(0, true); // Go to the first frame and stop
-
     // Lottie C (Loops Continuously)
     var animationC = lottie.loadAnimation({
         container: document.getElementById('lottieC'),
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'snowglobe-loop-07.json' // Update this path
+        path: 'snowglobe-loop-08.json' // Update this path
     });
 
 
