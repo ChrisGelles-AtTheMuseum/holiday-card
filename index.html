@@ -25,17 +25,17 @@
             top: 50%; /* Start at 50% from the top */
             transform: translateY(-50%); /* Shift upwards by half its own height */
         }
-        #lottieB1, #lottieB2 {
+        ##lottieB2 {
             max-height: 300px; /* Maximum height set to 300 pixels */
         }
 
-        #lottieB1 {  /* This is the top text. */
-            width: 110%; /* Make it wider than lottieC */
-            top: calc(50% - 30px); /* Adjust to overlap with lottieC */
-            left: 50%;
-            transform: translate(-50%, -50%); /* Center horizontally and adjust vertically */
-            position: absolute;
-        }
+/*        #lottieB1 {  /* This is the top text. */
+/*             width: 110%; /* Make it wider than lottieC */
+/*             top: calc(50% - 30px); /* Adjust to overlap with lottieC */
+/*             left: 50%;*/
+/*             transform: translate(-50%, -50%); /* Center horizontally and adjust vertically */
+/*             position: absolute;*/
+/*         } */
         
         #lottieB2 {
             bottom: 0; /* Attached to the bottom edge. This is the bottom text. */
@@ -110,7 +110,6 @@
     </audio>
     <div id="container">
         <div id="lottieC" class="lottie-animation"></div>
-        <div id="lottieB1" class="lottie-animation"></div>
         <div id="lottieB2" class="lottie-animation"></div>
         <div id="lottieA" class="lottie-animation"></div>
     </div>
