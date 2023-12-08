@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: 'snowglobe-loop-06.json' // Update this path
+        path: 'snowglobe-loop-07.json' // Update this path
     });
 
 
